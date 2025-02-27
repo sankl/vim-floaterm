@@ -59,6 +59,7 @@ function! floaterm#util#open(locations, ...) abort
 endfunction
 
 function! floaterm#util#startinsert() abort
+  return
   if &ft != 'floaterm'
     return
   endif
